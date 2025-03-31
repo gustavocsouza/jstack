@@ -5,8 +5,7 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb",
-    "plugin:react-hooks/recommended-legacy"
+    "airbnb"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -26,6 +25,8 @@
     "linebreak-style": 0,
     "react/jsx-no-bind": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "class-methods-use-this": "off",
+    "no-empty": ["error", { "allowEmptyCatch": true }]
   }
 }
